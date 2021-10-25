@@ -1,33 +1,46 @@
 {
   "projects": [
     {
-      "name": "Projeto de Infra",
-      "budget": "10000",
+      "name": "Site 123",
+      "budget": "5000",
       "category": {
         "id": "1",
         "name": "Infra"
       },
-      "cost": 5000,
+      "cost": 1000,
       "services": [
         {
-          "name": "Contratar um DevOps",
-          "cost": "5000",
-          "description": "DevOps para criar projeto na AWS",
-          "id": "79475653-9d65-4eb0-921b-9b12b6c6be52"
+          "name": "Servidor",
+          "cost": "1000",
+          "description": "AWS",
+          "id": "683a795f-c8b5-43c2-881b-6fdf1da554d1"
         }
       ],
-      "id": 2
+      "id": 1
     },
     {
-      "name": "Desenvolvimento do novo site",
-      "budget": "3000",
+      "name": "Site ABC",
+      "budget": "10000",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": [],
-      "id": 3
+      "cost": 7999,
+      "services": [
+        {
+          "name": "Contratar UI Designer",
+          "cost": "4000",
+          "description": "Design",
+          "id": "9bb5296c-eb0f-42b1-948d-f793550245fa"
+        },
+        {
+          "name": "Contratar Backend",
+          "cost": "3999",
+          "description": "Desenvolvimento de Banco de Dados",
+          "id": "5836ec81-48e6-4cf3-be5f-7e52b9eeaa1c"
+        }
+      ],
+      "id": 2
     }
   ],
   "categories": [
